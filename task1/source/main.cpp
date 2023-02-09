@@ -7,8 +7,6 @@
 #include "ConvertData/ConvertData.hpp"
 #include "DataProcessing/DataProcessing.hpp"
 
-// написать функцию, определяющую тип данных - в in()
-
 template<typename T>
 T pow_square(T& data) { return data * data; }
 
