@@ -130,7 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\ConvertData\ConvertData.hpp" />
+    <ClInclude Include="ConvertData\ConvertData.hpp" />
     <ClInclude Include="source\DataProcessing\DataProcessing.hpp" />
   </ItemGroup>
   <ItemGroup>

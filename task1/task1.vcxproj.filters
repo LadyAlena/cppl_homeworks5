@@ -24,7 +24,7 @@
     <ClInclude Include="source\DataProcessing\DataProcessing.hpp">
       <Filter>DataProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="..\ConvertData\ConvertData.hpp">
+    <ClInclude Include="ConvertData\ConvertData.hpp">
       <Filter>ConvertData</Filter>
     </ClInclude>
   </ItemGroup>
