@@ -1,14 +1,14 @@
 #include <iostream>
 #include <exception>
 
-#include "../task2/source/table/table.hpp"
+#include "../source/table/table.hpp"
 
 int main(int argc, char** argv) {
 
 	try {
 		table<int> t(2, 3);
 
-		t[1][0] = 3;
+		t[1][0] = 4;
 
 		std::cout << t[1][0] << std::endl;
 

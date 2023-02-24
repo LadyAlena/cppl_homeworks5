@@ -6,6 +6,7 @@
 #include <algorithm>
 #include <variant>
 #include <regex>
+#include "ConvertData/ConvertData.hpp"
 
 template<typename T>
 class DataProcessing {

@@ -1,12 +1,14 @@
 #pragma once
 
-#include "../task2/source/table/row/row.hpp"
+#include "../source/table/row/row.hpp"
 
 template<typename T>
 class table {
 public:
 	table(const int rows, const int colomns);
+	table(const table& r) = delete;
 	~table();
+	table& operator=(const table& r) = delete;
 	row<T>& operator[](const int index);
 	const row<T>& operator[](const int index) const;
 
